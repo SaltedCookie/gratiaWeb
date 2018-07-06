@@ -74,27 +74,38 @@ html, body {
 
  .main_top-tripleBlock {
 	list-style: none;
-	display: inline-block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .main_top-tripleBlock  > div {
-	
+	width: 411px;
+	display: flex;
+	flex-direction: column
 } 
 
-/* .main_top-tripleBlock-MainDishes {
+.main_top-tripleBlock-MainDishes {
+	width: 411px;
     display: flex;
 	height: 670px;
 }
 
 .main_top-tripleBlock-Soups {
+	width: 411px;
 	display: flex;
 	height: 670px;
 }
 
 .main_top-tripleBlock-Hamburgers {
+	width: 411px;
 	display: flex;
 	height: 670px;
-} */
+}
+
+.main_top_image {
+	width: 411px;
+}
 
 .MainDishes {
 	text-align: center;
