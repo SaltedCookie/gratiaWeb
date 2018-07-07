@@ -38,13 +38,15 @@ html, body {
 .main {
 	width: 100%;
 	display: flex;
-	height: 1100px;
+	height: 2000px;
 }
 
 .main__top {
-	margin: 5px 0;
+	margin: 10px 0;
+	display: flex;
 	width: 100%;
-	height: 900px;
+	height: 400px;
+	flex-direction: column;
 }
 
 .main__top-perfection {
@@ -72,44 +74,65 @@ html, body {
     font-size: 20px;
 }
 
- .main_top-tripleBlock {
+.main_middle {
+	margin: 5px 0;
+	width: 100%;
+	height: 1000px;
+}
+
+ .main_middle-tripleBlock {
 	list-style: none;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-.main_top-tripleBlock  > div {
+.main_middle-tripleBlock  > div {
 	width: 411px;
 	display: flex;
 	flex-direction: column
 } 
 
-.main_top-tripleBlock-MainDishes {
-	width: 411px;
+.main_middle-tripleBlock-MainDishes {
+	width: 31%;
     display: flex;
-	height: 670px;
+	height: 700px;
+	margin: auto;
+	flex-direction: column;
 }
 
-.main_top-tripleBlock-Soups {
+.main_middle-tripleBlock-MainDishes-picture {
+	width: 100%;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.white__square {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 350px;
+}
+
+.main_middle-tripleBlock-Soups {
 	width: 411px;
 	display: flex;
 	height: 670px;
 }
 
-.main_top-tripleBlock-Hamburgers {
+.main_middle-tripleBlock-Hamburgers {
 	width: 411px;
 	display: flex;
 	height: 670px;
-}
-
-.main_top_image {
-	width: 411px;
 }
 
 .MainDishes {
 	text-align: center;
-	font-size: 50px;
+	font-size: 70px;
 	font-weight: bold;
 	color: #000;
 	margin: 80px 35px 5px 35px;
