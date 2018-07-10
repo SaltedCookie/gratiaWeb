@@ -1,0 +1,74 @@
+html, body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+
+.header {
+	width: 100%;
+    height: 170px;
+    border-bottom: 1px solid #d7d9df;
+}
+
+.header__logo {
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-left: 4.4%;
+    padding-top: 40px;
+}
+
+.header__menu {
+	float: right;
+	margin-top: 50px;
+	margin-right: 40px;
+}
+
+.header__menu > a {
+	text-decoration: none;
+	color: black;
+	margin-left: 45px;
+}
+
+.header__menu > a:hover {
+	text-decoration: underline;
+	color: #d89b64;
+}
+
+.main {
+	width: 100%;
+	height: 2000px;
+}
+
+.main__top {
+	margin: 10px 0;
+	display: flex;
+	width: 100%;
+	height: 400px;
+	flex-direction: column;
+}
+
+.main__top-perfection {
+	width: 100%;
+	height: 250px;
+}
+
+.main__top-perfection-square {
+	margin: auto;
+	width: 600px;
+	height: 180px;
+	background-image: url(../images/gratia.png);
+}
+
+.perfection {
+	text-align: center;
+	font-family: "Montserrat";
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.someWords {
+	text-align: center;
+	font-family: "CrimsonText-Regular";
+    font-size: 20px;
+}
