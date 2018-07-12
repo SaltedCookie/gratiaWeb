@@ -37,7 +37,7 @@ html, body {
 
 .main {
 	width: 100%;
-	height: 2000px;
+	height: 1400px;
 }
 
 .main__top {
@@ -75,20 +75,18 @@ html, body {
 
 .main__middle {
 	width: 100%;
-	height: 1400px;
+	height: 900px;
 }
 
 .main__middle-container {
-	border: 1px solid #000;
 	width: 1300px;
-	height: 900px;
+	height: 810px;
 	display: flex;
 	margin: auto;
 	flex-direction: column;
 }
 
 .main__middle-container-left {
-	border: 1px solid #000;
 	width: 650px;
 	height: 450px;
 	margin: 0;
@@ -100,7 +98,6 @@ html, body {
 }
 
 .main__middle-container-right {
-	border: 1px solid #000;
 	width: 650px;
 	height: 450px;
 	margin: 0;
@@ -109,43 +106,44 @@ html, body {
 
 .main__middle-container-left-first-string {
 	height: 150px;
-	border: 1px solid #000;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	margin-top: 0;
 }
 
-.textarea-middle {
+.input-middle {
 	text-align: center;
 	font-size: 20px;
 	width: 180px;
+	height: 55px;
 	font-weight: border;
 	color: #000;
 	margin: auto;
+	box-shadow: 50px 50px 200px #ccc;
 }
 
 .main__middle-container-left-second-string {
 	height: 150px;
-	border: 1px solid #000;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	margin-top: 0;
 }
 
-.textarea-left {
+.input-left {
 	text-align: left;
 	font-size: 20px;
 	width: 612px;
-	font-weight: border;
+	height: 55px;
 	color: #000;
 	margin: auto;
+	text-indent: 15px;
+	box-shadow: 50px 50px 200px #ccc;
 }
 
 .main__middle-container-left-third-string {
 	height: 145px;
-	border: 1px solid #000;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -153,7 +151,6 @@ html, body {
 }
 
 .main__middle-container-right {
-	border: 1px solid #000;
 	width: 650px;
 	height: 450px;
 	margin: 0;
@@ -161,25 +158,24 @@ html, body {
 
 .main__middle-container-right-first-string {
 	height: 150px;
-	border: 1px solid #000;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	margin-top: 0;
 }
 
-.textarea-middle-big {
+.input-middle-big {
 	text-align: center;
 	font-size: 20px;
 	width: 290px;
-	font-weight: border;
+	height: 55px;
 	color: #000;
 	margin: auto;
+	box-shadow: 50px 50px 200px #ccc;
 }
 
 .main__middle-container-right-second-string {
 	height: 150px;
-	border: 1px solid #000;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -188,32 +184,144 @@ html, body {
 
 .main__middle-container-right-third-string {
 	height: 145px;
-	border: 1px solid #000;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	margin-top: 0;
 }
 
+input::-webkit-input-placeholder { 
+	color: black; 
+}
+
 .button {
 	text-align: left;
 	font-size: 20px;
 	width: 614px;
-	height: 52px;
-	font-weight: border;
-	color: #000;
+	height: 55px;
+	color: orange;
+	background-color: #000;
 	margin: auto;
+	text-indent: 15px;
+	box-shadow: 50px 50px 200px #ccc;
 
 }
 
 .main__middle-container-first-big-string {
 	text-align: left;
 	font-size: 20px;
-	width: 900px;
+	height: 300px;
+	color: #000;
+	margin-top: 0;
+	margin-left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.textarea {
+	text-align: left;
+	font-size: 20px;
+	width: 1260px;
+	height: 260px;
+	text-indent: 15px;
+	color: #000;
+	margin-top: 0;
+	margin-left: 0;
+	display: flex;
+	justify-content: left;
+	box-shadow: 50px 50px 200px #ccc;
+}
+
+.button-send {
+	text-align: center;
+	font-size: 20px;
+	width: 1268px;
+	height: 55px;
+	color: white;
+	background-color: #d69a63;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	box-shadow: 50px 50px 200px #ccc;
+}
+
+
+.input-middle-big {
+	text-align: center;
+	font-size: 20px;
+	width: 290px;
+	height: 55px;
 	font-weight: border;
 	color: #000;
+	margin: auto;
+}
+
+.site-map {
+	width: 100%;
+	height: 500px;
+	margin-top: 100px;
+}
+
+.site-map__bottom {
+	width: 100%;
+	position: relative;
+}
+
+.circleLogo__container {
 	margin: auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	border: solid 1px #d7d9df;
+	z-index: 10;
+	background: white;
+	position: relative;
+}
+
+.circleLogo {
+	width: 120px;
+	height: 120px;
+
+}
+
+.circle__logoline {
+	border: 1px solid #d7d9df;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	z-index: 1;
+}
+
+.site-map__gratia {
+	text-align: center;
+	font-family: "Montserrat";
+	font-size: 25px;
+	margin-top: 50px;
+}
+
+.site-map__gratia__container {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sociallogo {
+	width: 15.5%;
+	margin-top: 80px;
+	text-align: center;
+	padding-top: 25px;
+	border-top: solid 1px #d7d9df;
+}
+
+.sociallogo__FaceBook, 
+.sociallogo__Instagram, 
+.sociallogo__Twitter {
+	width: 45px;
+	height: 45px;
 }
