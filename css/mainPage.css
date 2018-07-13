@@ -226,7 +226,7 @@ html, body {
 	background-size: cover;
 	height: 320px;
 	width: 620px;
-	border: solid 1px #d7d9df;
+	border: solid 1px #9297a3;
 }
 
 .details {
@@ -241,7 +241,7 @@ html, body {
 .speech {
 	text-align: center;
 	font-size: 18px;
-	color: #a8acb6;
+	color: #9297a3;
 	margin-top: 20px;
 	margin-bottom: 55px;
 }
@@ -254,7 +254,7 @@ html, body {
 	font-size: 18px;
 	font-weight: bold;
 	color: #d89b64;
-	border: solid 1px #d7d9df;
+	border: solid 1px #9297a3;
 	height: 40px;
 	width: 300px;
 	margin: auto;
@@ -308,7 +308,7 @@ html, body {
 	text-align: center;
 	font-size: 20px;
 	font-family: "CrimsonText-Regular";
-	color: #a8acb6;
+	color: #9297a3;
 }
 
 .footer__triple-products {
@@ -365,7 +365,7 @@ html, body {
 	width: 200px;
 	height: 200px;
 	border-radius: 150px;
-	border: solid 1px #d7d9df;
+	border: 1px solid #ccc;
 	z-index: 10;
 	background: white;
 	position: relative;
@@ -378,7 +378,7 @@ html, body {
 }
 
 .circle__logoline {
-	border: 1px solid #d7d9df;
+	border: 1px solid #ccc;
 	position: absolute;
 	width: 100%;
 	top: 50%;
@@ -405,7 +405,7 @@ html, body {
 	margin-top: 80px;
 	text-align: center;
 	padding-top: 25px;
-	border-top: solid 1px #d7d9df;
+	border-top: 1px solid #ccc;
 }
 
 .sociallogo__FaceBook, 
