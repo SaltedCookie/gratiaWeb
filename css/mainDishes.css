@@ -1,8 +1,15 @@
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-Regular.ttf") format("ttf");
+	font-family: "CrimsonText-Regular";
+	src: url("../fonts/CrimsonText-Regular.ttf") format("ttf");
+   }
+
 html, body {
 	margin: 0;
 	width: 100%;
 	height: 100%;
-    padding: 0;
+	padding: 0;
 }
 
 .header {
@@ -12,10 +19,33 @@ html, body {
 }
 
 .header__logo {
-	text-transform: uppercase;
+	color: #000;
 	font-weight: 800;
 	margin-left: 4.4%;
     padding-top: 40px;
+}
+
+.header__logo-img {
+	width: 45px;
+	height: 45px;
+}
+
+.gratia-text {
+	margin-left: 10px;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.header__logo-menu a {
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.header__logo-menu {
+	display: flex;
 }
 
 .header__menu {
@@ -176,7 +206,7 @@ html, body {
 
 .dollar {
     text-align: center;
-	font-family: "CrimsonText-Regular";
+	font-family: "Montserrat";
 	font-size: 60px;
     color: #829c2c;
     margin-top: 45px;

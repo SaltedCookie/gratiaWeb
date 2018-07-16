@@ -1,3 +1,10 @@
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-Regular.ttf") format("ttf");
+	font-family: "CrimsonText-Regular";
+	src: url("../fonts/CrimsonText-Regular.ttf") format("ttf");
+   }
+
 html, body {
 	margin: 0;
 	width: 100%;
@@ -12,10 +19,33 @@ html, body {
 }
 
 .header__logo {
-	text-transform: uppercase;
+	color: #000;
 	font-weight: 800;
 	margin-left: 4.4%;
     padding-top: 40px;
+}
+
+.header__logo-img {
+	width: 45px;
+	height: 45px;
+}
+
+.gratia-text {
+	margin-left: 10px;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.header__logo-menu a {
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.header__logo-menu {
+	display: flex;
 }
 
 .header__menu {
@@ -118,6 +148,7 @@ html, body {
 	width: 180px;
 	height: 55px;
 	font-weight: border;
+	font-family: "Montserrat";
 	color: #000;
 	margin: auto;
 	box-shadow: 50px 50px 200px #ccc;
@@ -137,6 +168,7 @@ html, body {
 	width: 612px;
 	height: 55px;
 	color: #000;
+	font-family: "Montserrat";
 	margin: auto;
 	text-indent: 15px;
 	box-shadow: 50px 50px 200px #ccc;
@@ -170,6 +202,7 @@ html, body {
 	width: 290px;
 	height: 55px;
 	color: #000;
+	font-family: "Montserrat";
 	margin: auto;
 	box-shadow: 50px 50px 200px #ccc;
 }
@@ -200,6 +233,7 @@ input::-webkit-input-placeholder {
 	width: 614px;
 	height: 55px;
 	color: orange;
+	font-family: "Montserrat";
 	background-color: #000;
 	margin: auto;
 	text-indent: 15px;
@@ -225,6 +259,7 @@ input::-webkit-input-placeholder {
 	width: 1260px;
 	height: 260px;
 	text-indent: 15px;
+	font-family: "Montserrat";
 	color: #000;
 	margin-top: 0;
 	margin-left: 0;
